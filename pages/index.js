@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 
 const HomePage = () => {
@@ -98,6 +98,12 @@ const HomePage = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        <div
+          style={{ color: "white", display: "flex", justifyContent: "center" }}
+        >
+          <div>github.com/iniHery</div>
         </div>
 
         {/* End Footer */}
