@@ -13,8 +13,8 @@ const HomePage = () => {
               <div className="description-nav">Persegi Panjang</div>
               <div style={{ paddingTop: "6px", paddingRight: "20px" }}>
                 <Image
-                  width="20px"
-                  height="20px"
+                  width="18px"
+                  height="18px"
                   src="/assets/arrow.png"
                   alt="arrow"
                 />

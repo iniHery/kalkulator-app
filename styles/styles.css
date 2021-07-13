@@ -1,6 +1,6 @@
 .body {
-  min-height: 236vh;
-  min-width: 114px;
+  min-height: 100vh;
+  min-width: auto;
   font-family: sans-serif;
   background-image: url("../public/assets/background-matik.png");
   background-size: cover;
@@ -36,7 +36,7 @@
 
 .description-nav {
   display: flex;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   margin-left: 20px;
 }
