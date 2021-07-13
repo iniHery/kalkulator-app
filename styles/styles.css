@@ -1,0 +1,154 @@
+.body {
+  min-height: 236vh;
+  min-width: 114px;
+  font-family: sans-serif;
+  background-image: url("../public/assets/background-matik.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Nav */
+
+.nav {
+  background-image: url("../public/assets/background-matik.png");
+
+  align-items: center;
+  padding-top: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 26px;
+  padding-top: 38px;
+}
+
+.wraper {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  padding: 14px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.description-nav {
+  display: flex;
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+}
+
+/* End Nav */
+
+/* Content */
+
+/* .content {
+  justify-content: flex-start;
+  color: white;
+  font-size: 18px;
+  margin: 10px 30px;
+} */
+
+.img {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.items1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.8;
+  color: white;
+  font-size: 18px;
+  margin: 10px 30px;
+}
+
+.items2 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.8;
+  color: white;
+  font-size: 18px;
+  margin: 10px 30px;
+}
+/* End Content */
+
+/* Footer */
+
+.flex-footer {
+  padding: 10px 30px;
+}
+
+.wrapper-footer {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.heading {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+
+.menu {
+  display: flex;
+  padding: 10px 24px;
+  border-radius: 8px;
+  margin: 0px 10px;
+  background-color: rgb(182, 182, 182);
+}
+
+.text {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+
+.botton {
+  display: flex;
+  justify-content: Center;
+  background-color: rgb(28, 127, 209);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(172, 172, 172);
+  border-radius: 8px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  margin: 10px 20px;
+}
+/* End Footer */
