@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="body">
         {/* Nav */}
 
-        <div className="nav" style={{ position: "fixed" }}>
+        <div className="nav">
           <div className="nav-flex">
             <div className="wraper">
               <div className="description-nav">Persegi Panjang</div>
@@ -27,15 +27,14 @@ const HomePage = () => {
 
         {/* Content */}
 
-        <div style={{ padding: " 32px" }}>
-          <div className="img">
-            <Image
-              width="430"
-              height="268"
-              src="/assets/persegi-panjang.png"
-              alt="bangun datar"
-            />
-          </div>
+        <div style={{ padding: " 50px 32px" }}>
+          <Image
+            layout="responsive"
+            width={430}
+            height={268}
+            src="/assets/persegi-panjang.png"
+            alt="bangun datar"
+          />
         </div>
 
         <div className="items1">
